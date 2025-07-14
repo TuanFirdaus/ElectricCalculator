@@ -24,11 +24,11 @@ function calculateElectricityCharge($voltage, $current, $ratePerUnit, $hours = 1
     $totalChargePerDay = $totalChargePerHour * 24;
 
     return [
-        'power' => $powerInKW,     // Power in kW
-        'energy' => $energy,       // Energy in kWh
-        'totalCharge' => $totalCharge, // Total charge in RM
-        'totalChargePerHour' => $totalChargePerHour, // Charge per hour
-        'totalChargePerDay' => $totalChargePerDay // Charge per day
+        'power' => $powerInKW,
+        'energy' => $energy,
+        'totalCharge' => $totalCharge,
+        'totalChargePerHour' => $totalChargePerHour,
+        'totalChargePerDay' => $totalChargePerDay
     ];
 }
 
